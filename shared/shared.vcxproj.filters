@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="datatypes">
+      <UniqueIdentifier>{F4A2C9C3-600D-7E3A-A94B-2FE015F55B8F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies">
+      <UniqueIdentifier>{8CAD9F58-7810-2FFD-2196-67B30DD8FA7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="draw">
+      <UniqueIdentifier>{53D7957C-3F0E-970D-E8FA-7C10D410130F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="draw\impl">
+      <UniqueIdentifier>{3455FEEB-A0BF-B262-E9FD-630855A790B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hash">
+      <UniqueIdentifier>{C9C2977C-B5F9-980D-5EE6-7E104AFC140F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inputsystem">
+      <UniqueIdentifier>{3A9EF541-A653-6E37-2F48-680E9BFC643B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inputsystem\imp">
+      <UniqueIdentifier>{2FBEC963-9B49-3728-A45A-BA1C10659328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities">
+      <UniqueIdentifier>{212A0ED3-8D94-C249-D6D2-73EF427CA09E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\dependencies\xorstr.h">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="datatypes\color.h">
+      <Filter>datatypes</Filter>
+    </ClInclude>
+    <ClInclude Include="datatypes\vector.h">
+      <Filter>datatypes</Filter>
+    </ClInclude>
+    <ClInclude Include="draw\draw.h">
+      <Filter>draw</Filter>
+    </ClInclude>
+    <ClInclude Include="draw\impl\draw_impl_dx11.h">
+      <Filter>draw\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="draw\impl\draw_impl_dx9.h">
+      <Filter>draw\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="hash\crc32.h">
+      <Filter>hash</Filter>
+    </ClInclude>
+    <ClInclude Include="hash\fnv1a.h">
+      <Filter>hash</Filter>
+    </ClInclude>
+    <ClInclude Include="inputsystem\imp\inputsystem_impl_win32.h">
+      <Filter>inputsystem\imp</Filter>
+    </ClInclude>
+    <ClInclude Include="inputsystem\inputsystem.h">
+      <Filter>inputsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\crt.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\filehelpers.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\logger.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\math.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\memory.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\srwlock_helpers.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\win.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\assert.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="draw\draw.cpp">
+      <Filter>draw</Filter>
+    </ClCompile>
+    <ClCompile Include="draw\font.cpp">
+      <Filter>draw</Filter>
+    </ClCompile>
+    <ClCompile Include="draw\impl\draw_impl_dx11.cpp">
+      <Filter>draw\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="draw\impl\draw_impl_dx9.cpp">
+      <Filter>draw\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="hash\crc32.cpp">
+      <Filter>hash</Filter>
+    </ClCompile>
+    <ClCompile Include="inputsystem\imp\inputsystem_impl_win32.cpp">
+      <Filter>inputsystem\imp</Filter>
+    </ClCompile>
+    <ClCompile Include="inputsystem\inputsystem.cpp">
+      <Filter>inputsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\crt.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\filehelpers.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\logger.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\memory.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\win.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
